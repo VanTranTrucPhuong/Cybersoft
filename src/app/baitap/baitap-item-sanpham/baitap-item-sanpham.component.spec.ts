@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BaitapListComponent } from './baitap-list.component';
+import { BaitapItemSanphamComponent } from './baitap-item-sanpham.component';
 
-describe('BaitapListComponent', () => {
-  let component: BaitapListComponent;
-  let fixture: ComponentFixture<BaitapListComponent>;
+describe('BaitapItemSanphamComponent', () => {
+  let component: BaitapItemSanphamComponent;
+  let fixture: ComponentFixture<BaitapItemSanphamComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BaitapListComponent ]
+      declarations: [ BaitapItemSanphamComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BaitapListComponent);
+    fixture = TestBed.createComponent(BaitapItemSanphamComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

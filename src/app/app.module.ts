@@ -2,13 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { BaitapComponent } from './baitap/baitap.component';
 import { BaitapModule } from './baitap/baitap.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    BaitapComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
